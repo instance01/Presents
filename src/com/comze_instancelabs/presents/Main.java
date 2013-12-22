@@ -129,17 +129,36 @@ public class Main extends JavaPlugin implements Listener {
         return item;
     }
 	
+	
 	public void addAllPresents(){
+		presents.add(new ItemStack(Material.DIAMOND_AXE, 1));
 		presents.add(new ItemStack(Material.DIAMOND, 1));
+		presents.add(new ItemStack(Material.EMERALD, 1));
+		presents.add(new ItemStack(Material.DIAMOND_PICKAXE, 1));
+		presents.add(new ItemStack(Material.DIAMOND_SPADE, 1));
+		presents.add(new ItemStack(Material.DIAMOND_SWORD, 1));
 		presents.add(new ItemStack(Material.ARROW, 32));
-		presents.add(new ItemStack(Material.STONE_PICKAXE, 1));
+		presents.add(new ItemStack(Material.ARROW, 16));
 		presents.add(new ItemStack(Material.IRON_SWORD, 1));
 		presents.add(new ItemStack(Material.APPLE, 10));
+		presents.add(new ItemStack(Material.APPLE, 10));
+		presents.add(new ItemStack(Material.EXP_BOTTLE, 1));
 		presents.add(new ItemStack(Material.EXP_BOTTLE, 1));
 		presents.add(new ItemStack(Material.TNT, 3));
-		presents.add(new ItemStack(Material.IRON_CHESTPLATE, 1));
+		presents.add(new ItemStack(Material.TNT, 1));
+		presents.add(new ItemStack(Material.GOLD_INGOT, 1));
+		presents.add(new ItemStack(Material.GOLD_INGOT, 1));
+		presents.add(new ItemStack(Material.GOLD_INGOT, 1));
 		presents.add(new ItemStack(Material.GOLD_INGOT, 1));
 		presents.add(new ItemStack(Material.IRON_INGOT, 1));
+		presents.add(new ItemStack(Material.IRON_INGOT, 1));
+		presents.add(new ItemStack(Material.IRON_INGOT, 1));
+		presents.add(new ItemStack(Material.IRON_INGOT, 1));
 		presents.add(new ItemStack(Material.BOW, 1));
+		presents.add(new ItemStack(Material.ENDER_PEARL, 1));
+		presents.add(new ItemStack(Material.BOW, 1));
+		presents.add(new ItemStack(Material.SLIME_BALL, 1));
+		presents.add(new ItemStack(Material.CAKE, 1));
+		presents.add(new ItemStack(Material.COAL_BLOCK, 1));
 	}
 }
